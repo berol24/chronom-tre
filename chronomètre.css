@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,300&display=swap');
+
+
+* {
+	padding: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #7e7b12;
+}
+
+h1 {
+	text-align: center;
+	position: absolute;
+	top: 230px;
+	font-style: italic;
+	font-size: 6vh;
+
+}
+
+.chronometre {
+	background-color: white;
+	padding: 10px;
+	border-radius: 6px;
+	width: 400px;
+	text-align: center;
+}
+
+.tim {
+	margin: auto;
+	width: 100%;
+	border: 1px solid #999;
+	border-radius: 6px;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 400;
+	margin-bottom: 10px;
+
+}
+
+.tim span {
+	font-family: "dancing Script", cursive;
+	padding: 2px;
+}
+
+.controls {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+button {
+	background-color: #37360e;
+	color: white;
+	font-size: 15px;
+	padding: 15px 20px;
+	border-radius: 15px;
+	width: 30%;
+	border: 4px solid black;
+	letter-spacing: 1px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+button:hover {
+	transform: scale(0.88);
+	background-color: white;
+	color: #37360e;
+	font-size: 20px;
+}
