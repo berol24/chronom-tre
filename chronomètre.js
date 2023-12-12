@@ -1,5 +1,5 @@
 //les variables dont on a besoin
-let sp = document.getElementsByTagName("span");
+let sp = document.querySelectorAll("span");
 let btn_start = document.querySelector('#start');
 let btn_stop = document.querySelector('#stop');
 let btn_reset = document.querySelector('#reset');
